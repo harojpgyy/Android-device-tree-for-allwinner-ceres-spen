@@ -1,6 +1,0 @@
-on early-init
-    setprop sys.usb.configfs 1
-    insmod /ft3x27.ko
-    insmod /hyn_cst3xx.ko
-    insmod /chsc5xxx.ko
-    insmod /btl8xxx.ko
